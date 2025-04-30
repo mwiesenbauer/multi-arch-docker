@@ -1,5 +1,3 @@
-ARG registry=docker.io
-
 FROM --platform=$BUILDPLATFORM python:3.12-slim
 
 # linkchecker creates $XDG_CONFIG_HOME/linkchecker/ (700) containing linkcheckerrc et al
